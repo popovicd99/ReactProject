@@ -6,7 +6,7 @@ import "../styles/Products.css";
 function Products() {
   return (
     <div className="container">
-      <h1 className="title">Wares</h1>
+      <h1 className="title">All products</h1>
       <div className="product-container">
         {ProductList.map((productItem, key) => {
           return (
